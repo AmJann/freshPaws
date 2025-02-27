@@ -1,0 +1,21 @@
+import Navigationbar from "./components/NavigationBar";
+import "./globals.css";
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <head>
+        <title>Fresh Paws</title>
+      </head>
+      <body className="bg-gray-100">
+        <Navigationbar /> {/* Add Navbar here */}
+        <main className="container mx-auto p-4">
+          {children} {/* This will render each page content */}
+        </main>
+        <footer className="bg-teal-600 text-white text-center p-4 mt-8">
+          <p>&copy; 2025 Fresh Paws</p>
+        </footer>
+      </body>
+    </html>
+  );
+}
