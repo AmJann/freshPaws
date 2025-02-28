@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const LocalBusiness = () => {
   return (
@@ -25,9 +26,11 @@ const LocalBusiness = () => {
 
         {/* Right Side: Image */}
         <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-          <img
+          <Image
             src="/images/florida-white-star.png"
             alt="Florida Map"
+            width={500}
+            height={500}
             className="w-64 md:w-80 lg:w-96 object-contain"
           />
         </div>
