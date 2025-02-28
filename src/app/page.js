@@ -24,7 +24,7 @@ export default function Home() {
             We clean up after your pets so you do not have to!
           </p>
 
-          <button className="mt-8 px-6 py-2 bg-blue-500 text-white rounded-lg shadow-xl hover:bg-blue-700">
+          <button className="mt-8 px-6 py-2 bg-teal-600 text-white rounded-lg shadow-xl hover:bg-teal-700">
             Get Started
           </button>
           {/* New text for local, licensed, and insured */}

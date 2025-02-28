@@ -19,7 +19,7 @@ const LocalBusiness = () => {
             </span>{" "}
             with reliable, professional, and friendly care.
           </p>
-          <button className="px-8 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-300">
+          <button className="px-8 py-3 bg-teal-700 text-white rounded-lg hover:bg-teal-400 transition duration-300">
             Get in Touch
           </button>
         </div>
