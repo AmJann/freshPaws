@@ -27,11 +27,6 @@ export default function Home() {
           <button className="mt-8 px-6 py-2 bg-teal-600 text-white rounded-lg shadow-xl hover:bg-teal-700">
             Get Started
           </button>
-          {/* New text for local, licensed, and insured */}
-          <p className="mt-6 text-lg text-gray-300 mx-4 md:mx-6">
-            We are local, licensed, and insured to give you peace of mind while
-            we take care of your pet waste removal needs!
-          </p>
         </div>
       </div>
       <Local />
