@@ -10,7 +10,7 @@ const LocalBusiness = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4 flex justify-center md:justify-start items-center">
             Proudly Serving Our Local Community
           </h2>
-          <p className="text-lg md:text-xl mb-6 text-gray-100 text-center md:text-left">
+          <p className="text-lg md:text-xl mb-6 text-gray-100 text-center md:text-left mx-4 md:mx-6">
             We are a local, licensed, and insured pet waste removal service. Our
             team takes pride in serving the areas of
             <span className="font-bold text-yellow-100">
