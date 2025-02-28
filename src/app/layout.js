@@ -7,7 +7,7 @@ export default function RootLayout({ children }) {
       <head>
         <title>Fresh Paws</title>
       </head>
-      <body className="bg-gray-100">
+      <body className="bg-grey-500">
         <Navigationbar /> {/* Add Navbar here */}
         <main className="container mx-auto p-4">
           {children} {/* This will render each page content */}

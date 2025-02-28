@@ -40,6 +40,11 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="hover:bg-teal-700">
+            <Link href="/pricing" className="hover:text-gray-200">
+              Pricing
+            </Link>
+          </li>
+          <li className="hover:bg-teal-700">
             <Link href="/contact" className="hover:text-gray-200">
               Contact
             </Link>
@@ -76,6 +81,15 @@ export default function Navbar() {
                 onClick={() => setIsOpen(false)}
               >
                 Services
+              </Link>
+            </li>
+            <li className="hover:bg-teal-700">
+              <Link
+                href="/pricing"
+                className="block px-4 py-2 transition-colors duration-300 hover:text-gray-300"
+                onClick={() => setIsOpen(false)}
+              >
+                Pricing
               </Link>
             </li>
             <li className="hover:bg-teal-700">
