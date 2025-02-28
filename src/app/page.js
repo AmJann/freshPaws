@@ -28,7 +28,7 @@ export default function Home() {
             Get Started
           </button>
           {/* New text for local, licensed, and insured */}
-          <p className="mt-6 text-lg text-gray-300">
+          <p className="mt-6 text-lg text-gray-300 mx-4 md:mx-6">
             We are local, licensed, and insured to give you peace of mind while
             we take care of your pet waste removal needs!
           </p>
