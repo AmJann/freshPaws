@@ -12,10 +12,10 @@ const Pricing = () => {
       </p>
       <div className="mt-6 grid gap-6 sm:grid-cols-2">
         <div className="bg-white p-6 rounded-lg shadow-md">
-          <h2 className="text-xl font-semibold text-gray-700">
+          <h2 className="text-xl font-semibold text-gray-700 dark:text-gray-100 ">
             One-Time Cleanup
           </h2>
-          <p className="text-gray-600">
+          <p className="text-gray-600 dark:text-white">
             Great for first-time customers or special occasions.
           </p>
           <p className="text-2xl font-bold text-teal-600">$30 - $60</p>

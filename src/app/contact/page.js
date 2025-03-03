@@ -4,8 +4,10 @@ import Image from "next/image";
 const Contact = () => {
   return (
     <div className="max-w-4xl mx-auto p-6 text-center">
-      <h1 className="text-3xl font-bold text-gray-800 mt-6">Contact Us</h1>
-      <p className="text-gray-600 mt-2">
+      <h1 className="text-3xl font-bold text-gray-800 mt-6 dark:text-gray-100">
+        Contact Us
+      </h1>
+      <p className="text-gray-600 mt-2 dark: text-white">
         Have questions or need to schedule a service? Get in touch with us!
       </p>
 
@@ -60,7 +62,7 @@ const Contact = () => {
         <p className="mt-2">Phone: (941) 275-3331</p>
         <p>Email: info@freshpaws.com</p>
         <p>Hours 8am - 5pm</p>
-        <p>Monday-Friday</p>
+        <p>Monday - Friday</p>
       </div>
     </div>
   );
