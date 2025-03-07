@@ -36,7 +36,7 @@ export default function AboutPage() {
           <h2 className="text-2xl font-semibold mb-4">Why Fresh Paws?</h2>
           <p className="text-gray-600 mb-4">
             I know how important it is to have a clean and safe environment for
-            your pets and family. That's why Fresh Paws offers a personal,
+            your pets and family. That is why Fresh Paws offers a personal,
             friendly approach to pet waste removal. With affordable plans,
             flexible scheduling, and consistent results, you can rely on Fresh
             Paws to handle the dirty work so you don not have to!
