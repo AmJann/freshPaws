@@ -1,6 +1,6 @@
 import FunFactCard from "./components/FunFactCard";
 import Local from "./components/Local";
-import RunningDog from "./components/RunningDog";
+
 export default function Home() {
   return (
     <div>
