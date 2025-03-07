@@ -1,7 +1,8 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X } from "lucide-react"; // For icons
+import { Menu, X } from "lucide-react";
+import { FaPaw } from "react-icons/fa";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="text-white text-2xl font-bold">
-          Fresh Paws
+          <div className="flex row ">
+            Fresh Paws <FaPaw />
+          </div>
         </Link>
 
         {/* Mobile Menu Button */}

@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className="bg-grey-500">
         <Navigationbar /> {/* Add Navbar here */}
-        <main className="container mx-auto p-4">
+        <main>
           {children} {/* This will render each page content */}
         </main>
         <footer className="bg-teal-600 text-white text-center p-4 mt-8">
